@@ -9,4 +9,10 @@ if x == "Add":
   print(Num1,"is the total!")
 
 elif x == "Minus":
-  y = int(input("Number one"))
+  Numbers = int(input("How many numbers will you take away"))
+  Num1 = int(input("Base number"))
+  while Numbers > 1:
+    Numbers = Numbers - 0
+    NumExtra = int(input("Add a number to take away from"))
+    Num1 = Num1 - NumExtra
+  print(Num1,"is the total!")
