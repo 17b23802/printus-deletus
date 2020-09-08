@@ -1,4 +1,4 @@
-x = int(input(print("Do I know what I'm doing?")))
+x = int(input("Do I know what I'm doing?"))
 if x > 10:
   print("Yes")
 else:
