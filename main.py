@@ -1,6 +1,6 @@
 x = input("Add, Minus, Times or Divide?")
 if x == "Add":
-  Numbers = input("How many numbers")
+  Numbers = int(input("How many numbers"))
   Num1 = int(input("Number one"))
   while Numbers > 1:
     Numbers = Numbers - 1
