@@ -7,7 +7,6 @@ if x == "Add":
     NumExtra = int(input("Next Number "))
     Num1 = Num1 + NumExtra
   print(Num1,"is the total! ")
-
 elif x == "Minus":
   Numbers = int(input("How many numbers will you take away "))
   Num1 = int(input("Base number "))
@@ -16,3 +15,11 @@ elif x == "Minus":
     NumExtra = int(input("Add a number to take away from "))
     Num1 = Num1 - NumExtra
   print(Num1,"is the total!")
+elif x == "Times":
+  Numbers = int(input("How many numbers will you multiply "))
+  Num1 = int(input("First number "))
+  while Numbers > 1:
+    Numbers = Numbers - 0
+    NumExtra = int(input("Next number "))
+    Num1 = Num1 * NumExtra
+  print(Num1,"is the product!")
