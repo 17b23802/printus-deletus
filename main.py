@@ -23,3 +23,11 @@ elif x == "Times":
     NumExtra = int(input("Next number "))
     Num1 = Num1 * NumExtra
   print(Num1,"is the product!")
+elif x == "Divide":
+  Numbers = int(input("How many numbers will you divide the base by "))
+  Num1 = int(input("Base number "))
+  while Numbers > 1:
+    Numbers = Numbers - 0
+    NumExtra = int(input("Number to divide it by "))
+    Num1 = Num1 / NumExtra
+  print(Num1,"is the result!")
